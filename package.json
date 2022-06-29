@@ -1,0 +1,15 @@
+{
+  "name": "renovate-config",
+  "version": "0.0.1",
+  "description": "Repository for renovate configuration files",
+  "repository": "https://github.com/m2en/renovate-config",
+  "author": "m2en <merunno92@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "renovate-config-validator"
+  },
+  "devDependencies": {
+    "renovate": "^32.99.9"
+  }
+}
