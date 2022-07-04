@@ -1,0 +1,20 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["config:base", ":timezone(Asia/Tokyo)"],
+    "labels": ["dependencies"],
+    "schedule": ["on saturday"],
+    "dependencyDashboard": true,
+    "automerge": true,
+    "reviewers": ["m2en"],
+    "packageRules": [
+      {
+        "matchDepTypes": ["devDependencies"],
+        "groupName": "devDependencies"
+      },
+      {
+        "matchDepTypes": ["dependencies"],
+        "matchUpdateTypes": ["minor", "patch"],
+        "groupName": "dependencies (non-major)"
+      }
+    ]
+}
