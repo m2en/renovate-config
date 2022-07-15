@@ -1,6 +1,9 @@
 name: Renovate Validate
 
-on: pull_request
+on:
+  pull_request:
+    paths:
+      - '**.json'
 
 
 jobs:
