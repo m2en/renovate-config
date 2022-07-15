@@ -1,0 +1,26 @@
+# renovateの代わりにpackage/actionを更新するDependabot
+
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "m2en"
+    target-branch: main
+    commit-message:
+      prefix: chore
+    labels:
+      - "🔮dependabot update(npm)"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "m2en"
+    target-branch: main
+    commit-message:
+      prefix: chore
+    labels:
+      - "🔮dependabot update(gh-actions)"
