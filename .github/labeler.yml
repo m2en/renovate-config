@@ -1,0 +1,7 @@
+🔮workflow (gh-actions):
+  - .github/workflows/*.yml
+  - .github/*.yml
+
+🔮dependabot update(npm):
+  - yarn.lock
+
