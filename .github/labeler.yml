@@ -5,3 +5,6 @@
 🔮dependabot update(npm):
   - yarn.lock
 
+✨renovate config update:
+  - default.json
+  - renovate.json
